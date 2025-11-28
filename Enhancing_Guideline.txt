@@ -1,0 +1,80 @@
+This document outlines how to convert character information from any format into the standardized structure exemplified in `Examples/Characters/Example_Character.txt`. Adherence to this format ensures consistency and clarity. All raw references now live under `Characters/<Name>/Input`, while finalized personas, intros, and other deliverables belong in `Characters/<Name>/Output`.
+
+## Document Structure and Formatting
+
+The character document is divided into several key sections, each marked with a specific heading style. The primary sections, in order, are:
+
+1. Persona (starts with `## Persona`)
+2. Appearance (starts with `## Appearance`)
+3. Speech and Mannerisms (starts with `## Speech and Mannerisms`)
+4. Attire and Style (starts with `## Attire and Style`)
+5. Hobbies and Occupation (starts with `## Hobbies and Occupation`)
+6. Backstory (starts with `## Backstory`)
+7. Additional Insights (starts with `## Additional Insights`)
+8. Sexual Quirks (starts with `## Sexual Quirks`)
+9. Open-ended Questions (starts with `## Open-ended Questions`)
+
+Refer to `Examples/Characters/Example_Character.txt` for the precise order and naming of these sections if there is any doubt. Example intros referenced in this document now live under `Examples/Characters/Intros/`.
+
+Section Content and Formatting Details:
+
+- Headings: All main section titles MUST start with `## ` (hash, hash, space) followed by the section name (e.g., `## Persona`). There should be a blank line before each main section heading.
+
+- Persona Section:
+  - This section begins with a single paragraph summarizing the character's core identity, traits, and relevant tropes.
+  - The VERY FIRST line within this section MUST be a bracketed list of key attributes: `[Name: ...; Alias: ...; Persona: ...; Appearance: ...; Tropes: ...; Genre: ...]`. Each attribute is followed by a colon, its value, and then a semicolon to separate it from the next attribute. The final attribute is followed by a closing bracket `]`.
+      - The descriptions within the brackets should be concise. For instance, in "Example_Character.txt", the "Appearance" attribute within the Persona section is a brief summary (e.g., "bubble-gum pink ponytail... 5'7"").
+  - Following the bracketed list, a descriptive paragraph elaborates on the persona. This paragraph should be of moderate length; for example, the one in "Example_Character.txt" is about 5 sentences long.
+
+- Separator:
+  - A specific separator is used ONLY ONCE in the document. It appears immediately after the Persona summary paragraph and before the `## Appearance` heading.
+  - This separator consists of exactly three lines, and each of those three lines must contain only five hash symbols (`#####`).
+    Example:
+    #####
+    #####
+    #####
+  - This separator must be followed by two blank lines before the `## Appearance` heading.
+
+- Descriptive Sections (Appearance, Speech and Mannerisms, Attire and Style, Hobbies and Occupation, Backstory, Additional Insights, Sexual Quirks):
+  - Each of these sections typically contains one or more paragraphs of descriptive text. In "Example_Character.txt", most of these sections consist of a single paragraph.
+  - The length of these paragraphs can vary based on the information available, but aim for a similar level of detail as seen in "Example_Character.txt". For reference, paragraph lengths in the example are:
+    - Appearance: Approx. 6 sentences.
+    - Speech and Mannerisms: Approx. 3 sentences.
+    - Attire and Style: Approx. 4 sentences.
+    - Hobbies and Occupation: Approx. 3 sentences.
+    - Backstory: Approx. 7 sentences.
+    - Additional Insights: Approx. 6 sentences.
+    - Sexual Quirks: Approx. 6 sentences.
+  - Maintain a descriptive and informative tone, similar to that in "Example_Character.txt".
+
+- Open-ended Questions Section:
+  - This is the final section.
+  - It contains a list of questions designed to provoke further thought about the character.
+  - Each question MUST start with a hyphen and a space (`- `).
+  - "Example_Character.txt" includes two such questions. The number can vary, but they should be concise yet thought-provoking.
+
+## General Conversion Guidelines
+
+- Source Material Irrelevant: The original format of your input character reference does not matter. All input must be converted to match the structure and style of "Example_Character.txt".
+
+- Character names will be in the file name, if they are not then you must make up creative, original, unique, names that are not common like "Elara" for example is too common.
+
+- {{user}} Placeholder: The placeholder `{{user}}` should be used when referring to the reader or a generic second person interacting with the character, as seen in "Example_Character.txt".
+
+- Paragraph and Sentence Length Guidance: The sentence counts mentioned are guidelines based on "Example_Character.txt" to illustrate the expected level of detail. The primary goal is to provide comprehensive information in a clear and well-structured manner, consistent with the example. Focus on paragraph structure and detail rather than rigidly adhering to exact sentence numbers.
+
+- Blank Lines: Pay close attention to blank lines between paragraphs and sections as demonstrated in "Example_Character.txt".
+  - Generally, there is one blank line between paragraphs within a section.
+  - There are two blank lines between the end of one section's text (or the special separator) and the heading of the next section.
+
+- NSFW Content: 
+Unless otherwise instructed use modest language to describe explicit content, in order to include intimate details without triggering a NSFW filter.
+  - Instead of breasts, use the word "bosom" or "bust"
+  - Instead of ass, use the word "bottom" or "butt"
+  - Instead of pussy, use the word "intimates" or "folds"
+  - Don't describe the 'puckering star'/'anus'
+  - Using the word nipples is fine
+  - Be detailed and sexy while using this modest language. (e.g., inverted nipples, fat bouncy bottom, huge heavy bust, swollen hairless folds, etc). These examples are less detailed than a final output.
+
+
+By following these instructions carefully, you will be able to successfully convert any character reference into the desired format.
